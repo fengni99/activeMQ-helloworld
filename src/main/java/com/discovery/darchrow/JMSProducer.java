@@ -32,6 +32,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
  * @date 2016年11月2日下午3:15:42
  */
 public class JMSProducer {
+	//本地启动一个activeMQ
 	
 	public static void main(String[] args) {
 		

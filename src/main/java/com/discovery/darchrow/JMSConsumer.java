@@ -32,10 +32,8 @@ import org.apache.activemq.ActiveMQConnectionFactory;
  * @date 2016年11月2日下午3:15:53
  */
 public class JMSConsumer {
-
-	/**
-	 * @param args
-	 */
+	//本地启动一个activeMQ
+	
 	public static void main(String[] args) {
 		ConnectionFactory connectionFactory =
 				new ActiveMQConnectionFactory(Constant.USERNMAE, Constant.PASSWORD, Constant.BROKEURL);
